@@ -1,0 +1,12 @@
+{
+  "name": "seed",
+  "version": "1.0.0",
+  "description": "Grown seed to test infra options on the cloud",
+  "main": "server.js",
+  "scripts": {
+    "start": "U_WEBSOCKETS_SKIP=1 node server.js"
+  },
+  "dependencies": {
+    "grown": "^1.3.6"
+  }
+}
